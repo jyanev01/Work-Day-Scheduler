@@ -3,7 +3,7 @@ body {
   font-size: 16px;
   line-height: 1;
 }
-
+/* plain white starter code */
 textarea{
   background: transparent;
   border: none;
@@ -12,6 +12,8 @@ textarea{
   border-left: 1px solid black;
   padding: 10px;
 }
+
+/* test area daytime */
 
 .jumbotron {
   text-align: center;
