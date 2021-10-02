@@ -44,7 +44,8 @@ $(".saveBtn").on("click", function(){
 
 // WHen I refresh the page, then the saved text persists
 
-localStorage.getItem(key);
+alert(localStorage.getItem(key));
+
 function savedDate() {
     $
 };
