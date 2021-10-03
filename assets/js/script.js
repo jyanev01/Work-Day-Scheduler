@@ -26,37 +26,19 @@ for(i=8; i<idArr.length + 8; i++){
         // console.log("future")
         $("#text"+i).attr("class","col-md-10 future")
     }
+    // WHen I refresh the page, then the saved text persists
 
     $("#text"+i).val(localStorage.getItem("text"+i))
 }
 
-// function applyClass () {
-
-//     var d = new Date();
-//     var n = d.getHours();
-//     switch(true) {
-//         case (n < currentHour) :
-//             $(this).addClass('past');
-//             break;
-//         case (n === currentHour) :
-//             $(".hour").addClass('present');
-//             break;
-//         default:
-//             $(".hour").addClass('future');
-//     }
-// };
-
-
-// applyClass();
 
 
 
 
-// SAVE need button to save to local storage- NEEED HELP
+
+
+// SAVE need button to save to local storage-
 $(".saveBtn").on("click", function(){
-    // how do I select the unmade text area and save the time slot
-    // var key = $(this).text[i].value.trim
-    // var value= $(this).attr().value
 
     var key = $(this).prev().attr("id")
     var value = $(this).prev().val()
@@ -67,12 +49,7 @@ $(".saveBtn").on("click", function(){
 });
 
 
-// WHen I refresh the page, then the saved text persists
 
-// alert(localStorage.getItem(key));
 
-function savedDate() {
-    $
-};
 
 
