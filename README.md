@@ -1,6 +1,13 @@
 # Work Day Scheduler Starter Code
 Begin with starter code
-Edit
+Refractor the HTML to create time blocks.
+
+Text in code will be save to local starage; persistence after refresh.
+
+Color changes: Gray- Past
+Red- Current hour
+Green- Future hours
+
 
 AS AN employee with a busy schedule
 I WANT to add important events to a daily planner
